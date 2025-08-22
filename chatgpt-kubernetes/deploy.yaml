@@ -39,7 +39,8 @@ spec:
   selector:
     app: chatgpt-pod
   ports:
-  - port: 5005 # Service IP Port
+  - port: 5000 # Service IP Port
     targetPort: 80 # Container Port
-    nodePort: 30002 # Node Port/Host Port
+    nodePort: 30000 # Node Port/Host Port
     protocol: TCP
+ 
